@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>ScoreBoard</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="head">
+            <h1>BASKETBALL SCOREBOARD</h1>
+        </header>
+        <div class="timer">
+            <p class="stopWatch">Stopwatch</p>
+            <div class="btnwatch">
+                <button class="btnw start">Game Start</button>
+                <div class="timeBlock">
+                    <h4 class="tt">
+                        <span class="min">00</span>
+                        <span>:</span>
+                        <span class="second">00</span>
+                        <span>:</span>
+                        <span class="tens">00</span>
+                    </h4>
+                </div>
+                <button class="btnw break">Break Time</button>
+            </div>
+        </div>
+        <div class="scoreCard ">
+            <div class="homeTeam home-bg">
+                <h1>HOME</h1>
+                <div class="homeBox">
+                    <h2 class="score homeScore">0</h2>
+                </div>
+                <button class="btnScore hbtn hbtn1">+1</button>
+                <button class="btnScore hbtn hbtn2">+2</button>
+                <button class="btnScore hbtn hbtn3">+3</button>
+            </div>
+            <div class="guestTeam guest-bg">
+                <h1>GUEST</h1>
+                <div class="guestBox">
+                    <h2 class="score guestScore">0</h2>
+                </div>
+                <button class="btnScore gbtn gbtn1">+1</button>
+                <button class="btnScore gbtn gbtn2">+2</button>
+                <button class="btnScore gbtn gbtn3">+3</button>
+            </div>
+        </div>
+        <p class="result"></p>
+        <div class="btn-container">
+            <button class="new-btn btns">New Game</button>
+            <button class="end-btn btns">End Game</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
